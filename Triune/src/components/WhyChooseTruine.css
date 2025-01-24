@@ -1,0 +1,90 @@
+/* //whychoose css  */
+.why-choose-truine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+  text-align: center;
+
+}
+
+.choose-inner {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.left-image {
+  height: 480px;
+  width: 60%;
+  border-radius: 8px;
+  background-color: #339ABC;
+}
+
+
+.left-image img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.right-content {
+  max-width: 500px;
+  text-align: left;
+  height: 100%;
+
+}
+.right-content button:hover {
+cursor: pointer;
+
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: rgba(51, 154, 188, 1);
+  /* Adjust color to your preference */
+}
+
+.chooseDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgba(142, 142, 147, 1);
+}
+
+.right-content button {
+  background-color: rgba(51, 154, 188, 1);
+  padding: 14px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .left-image {
+    width: 100%;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .right-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .right-content {
+    text-align: center;
+  }
+}
